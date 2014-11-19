@@ -40,7 +40,7 @@ public class Startup {
         
         System.out.println("\nNow here are the values sorted by alternate "
                 + "(ReleaseDate), but NO dupes removed...");
-        //Collections.sort(songs, new SongByReleaseDate());
+        Collections.sort(songs, new SongByReleaseDate());
         //Collections.sort(songs, new SongByLength());
         for(Song song : songs) {
             System.out.println(song);
